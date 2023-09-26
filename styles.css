@@ -1,0 +1,268 @@
+/* Reset some default styles */
+/* Apply the custom font to headings and paragraphs */
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Montserrat', sans-serif; /* Use the custom font */
+}
+
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the header and search bar */
+header {
+    background-image: url('images/header.jpg'); /*eplace with the path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color:white;
+    text-align: center;
+    padding: 100px 0; /* Adjust the top and bottom padding to change the header height */
+}
+/* Adjust font size and line height */
+h1 {
+    font-size: 42px; /* Adjust the size as needed */
+    line-height: 1.2; /* Adjust line height for spacing */
+     /* font-weight: bold; */
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 1.3;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 1.4;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+button {
+    background-color: #FFC107;
+    color: #333;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    height:40px;
+}
+.featured-restaurants{
+    text-align:center;
+}
+/* Styling for restaurant container */
+.restaurant-container {
+    width: 100%;
+    max-width: 1000px; /* Set a fixed maximum width */
+    margin: 0 auto;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent cards from wrapping to the next line */
+}
+
+/* Styling for restaurant cards */
+.restaurant-card {
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    margin: 0 10px; /* Add spacing between cards */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    box-sizing: border-box;
+    text-align: left; /* Align text to the left */
+    padding: 10px;
+}
+
+.restaurant-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.restaurant-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.restaurant-card h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.restaurant-card p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+/* ... (other CSS styles) ... */
+
+
+/* ... Previous CSS styles ... */
+
+/* Styling for the website purpose section */
+.website-purpose {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    font-weight: bold; 
+}
+
+.image-half {
+    flex: 1;
+    text-align: center;
+}
+
+.half-image {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.text-half {
+    flex: 1;
+    padding: 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
+/* CSS for the search bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-top: 20px; /* Add spacing below the paragraph */
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+button {
+    background-color: #FFC107;
+    color: #333;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+/* ... Previous CSS styles ... */
+
+/* Styling for the star rating */
+.rating {
+    font-size: 20px; /* Adjust the size of the stars */
+    color: #FFD700; /* Star color (yellow) */
+}
+
+.star {
+    display: inline-block;
+    margin-right: 5px; /* Add spacing between stars */
+}
+
+.rating-text {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #777; /* Text color for the rating */
+}
+/* CSS for the "About Us" section */
+.about-us {
+    background-color:black;
+    padding: 40px 0;
+    text-align: center;
+    color: #ddd;
+}
+
+.about-us h2 {
+    font-size: 36px;
+}
+
+.about-us p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* CSS for the "About Us" icon in the header */
+/* ... Previous CSS styles ... */
+
+/* CSS for the "About Us" icon in the header */
+/* #about-icon { */
+    /* float: right; Float the icon to the right corner */
+    /* margin-top: -30px; Adjust the margin to position it below the heading */
+    /* margin-right: 20px; Add some spacing from the right edge */
+    /* width: 40px; Adjust the icon size as needed */
+    /* height: 40px; */
+    /* cursor: pointer; */
+/* } */
+/* ... (Previous CSS styles) ... */
+
+/* Styling for the "Contact Us" section */
+.contact-us {
+    background-color: black;
+    padding: 40px 0;
+    text-align: center;
+    color: #ddd;
+}
+
+.contact-us h2 {
+    font-size: 36px;
+}
+
+.contact-us p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+/* ... Previous CSS styles ... */
+
+/* Styling for the header icons */
+/* #about-icon, */
+/* #contact-icon { */
+    /* width: 40px; */
+    /* height: 40px; */
+    /* cursor: pointer; */
+    /* margin-right: 10px; Add spacing between the icons */
+/* } */
+
+/* ... Previous CSS styles ... */
+/* ... Previous CSS styles ... */
+
+/* Styling for the header icons */
+#about-icon,
+#contact-icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 10px; /* Add spacing between the icons */
+}
+
+#contact-icon {
+    float: right; /* Float the "Contact Us" icon to the right */
+    margin-left: 15px; /* Reset left margin for "Contact Us" icon */
+}
+
+/* ... Previous CSS styles ... */
+
+
+/* Styling for the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* ... (Previous CSS styles) ... */
+
+
+/* ... Previous CSS styles ... */
+
+
+/* ... Previous CSS styles ... */
+
+
